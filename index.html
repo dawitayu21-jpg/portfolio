@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Yehualashet Hailu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a href="#home" class="logo">Dawit Ayele</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch color mode">Light</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <span class="eyebrow">Bahirdar University | 4th Year Information Systems Student</span>
+          <h3>Hi, I’m Dawit Ayele — an Information Systems student building better web experiences.</h3>
+          <p>
+            As a 4th year Information Systems student at Bahirdar University, I focus on digital solutions that combine business logic with strong interface design.
+            I create responsive, polished interfaces and meaningful experiences that feel modern and usable.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-secondary" href="#contact">Let's talk</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <img class="hero-avatar" src="profile.jpg" alt="Dawit Ayele" onerror="this.onerror=null; this.src='profile.svg'" />
+          <div class="panel-card">
+            <h3>Featured student systems</h3>
+            <p>Built practical solutions for university operations, student grading, hotel management, and online commerce.</p>
+            <div class="panel-meta">
+              <span>Information Systems</span>
+              <span>Web Apps</span>
+              <span>Automation</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-intro">
+          <span>About me</span>
+          <h3>I’m a 4th year Bahirdar University student creating polished web projects.</h3>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I study Information Systems at Bahirdar University, and I enjoy bringing ideas to life with clean visual design,
+              practical code, and responsive layouts.
+            </p>
+            <ul class="about-list">
+              <li><strong>Current study:</strong> 4th year Information Systems student at Bahirdar University.</li>
+              <li><strong>Strengths:</strong> Web interfaces, responsive design, and frontend development.</li>
+              <li><strong>Goal:</strong> Build real-world projects that combine creativity and usability.</li>
+            </ul>
+          </div>
+          <div class="about-stats">
+            <article>
+              <h3>Student</h3>
+              <p>Bahirdar University</p>
+            </article>
+            <article>
+              <h3>4th Year</h3>
+              <p>Information Systems focus</p>
+            </article>
+            <article>
+              <h3>Responsive</h3>
+              <p>Mobile-friendly frontends</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="skills">
+        <div class="section-intro">
+          <span>Skills</span>
+          <h2>Technologies and tools I love working with.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, JavaScript, React, Vue, TypeScript, Tailwind CSS</p>
+          </div>
+          <div class="skill-card">
+            <h3>Design</h3>
+            <p>Figma, Adobe XD, motion design, illustration, brand systems</p>
+          </div>
+          <div class="skill-card">
+            <h3>Backend</h3>
+            <p>Node.js, Express, REST APIs, GraphQL, Firebase, serverless functions</p>
+          </div>
+          <div class="skill-card">
+            <h3>Workflow</h3>
+            <p>Git, CI/CD, accessibility reviews, performance optimization, user testing</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-intro">
+          <span>Projects</span>
+          <h2>Selected work with real-world impact.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-badge">Project</div>
+            <h3>Hotel Management System</h3>
+            <p>Complete reservation, room assignment, and billing workflow for hospitality operations.</p>
+            <div class="project-tags"><span>Management</span><span>Database</span><span>UI</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-badge">Project</div>
+            <h3>Bahirdar University Clearance System</h3>
+            <p>Automated clearance processing for students, departments, and administrative approvals.</p>
+            <div class="project-tags"><span>University</span><span>Automation</span><span>Workflow</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-badge">Project</div>
+            <h3>Automated Student Exam Grader</h3>
+            <p>Grading engine to evaluate student exams automatically and generate results quickly.</p>
+            <div class="project-tags"><span>Education</span><span>Automation</span><span>Analytics</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-badge">Project</div>
+            <h3>Simple E-commerce Website</h3>
+            <p>Responsive online store with product browsing, shopping cart, and checkout flow.</p>
+            <div class="project-tags"><span>eCommerce</span><span>Responsive</span><span>Web</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-contact" id="contact">
+        <div class="section-intro">
+          <span>Contact</span>
+          <h2>Let’s build something exceptional together.</h2>
+        </div>
+        <div class="contact-panel">
+          <p>Ready to collaborate on your next project? Send a message and I’ll get back to you shortly.</p>
+          <a class="btn btn-primary" href="mailto:dawitayu21@gmail.com">dawitayu21@gmail.com</a>
+          <div class="contact-social">
+            <a href="https://github.com/dawitayu21" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/dawit-ayele" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://facebook.com/dawitayu21" target="_blank" rel="noreferrer">Facebook</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Dawit Ayele. Designed with intention and built for clarity.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
